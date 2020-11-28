@@ -28,14 +28,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _LineCount: 40
+    - _LineCount: 29.9
     - _LineMovSpeed: 100
     - _LineSize: 0.489
     - _LineSpeed: 0.2
-    - _NoiseFlickerStr: 6
-    - _NoiseMoveSpeed: 8.88
+    - _NoiseFlickerStr: 56.6
+    - _NoiseMoveSpeed: 8.85
     - _NoiseOffsetX: 0.779
-    - _NoiseStrength: 0.15
+    - _NoiseStrength: 0.268
     - _Offset: 5
     m_Colors:
     - _Color: {r: 2, g: 2, b: 2, a: 1}
