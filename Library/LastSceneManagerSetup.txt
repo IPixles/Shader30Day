@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Shaders/Day_2/Demo_2.unity
+- path: Assets/Shaders/Day_3/Demo_3.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

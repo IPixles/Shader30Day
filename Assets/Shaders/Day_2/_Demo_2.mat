@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _LineCount: 29.9
+    - _LineCount: 1
     - _LineMovSpeed: 100
     - _LineSize: 0.489
     - _LineSpeed: 0.2

@@ -64,9 +64,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <None Include="Assets\Shaders\Day_1\Day_1_Shader.shader" />
+    <None Include="Assets\Shaders\Day_1\Day1_GlobePattern.shader" />
+    <None Include="Assets\Shaders\Day_4\Day4_CartoonLit.shader" />
     <None Include="Assets\Shaders\Read Me.txt" />
-    <None Include="Assets\Shaders\Day_2\Day_2_Shader.shader" />
+    <None Include="Assets\Shaders\Day_3\Day3_Shader.shader" />
+    <None Include="Assets\Shaders\Day_6\Day6_Flag.shader" />
+    <None Include="Assets\Shaders\UnityShaderGraphFunctions.hlsl" />
+    <None Include="Assets\Shaders\Day_5\Day5_EdgeDissovle.shader" />
+    <None Include="Assets\Shaders\Day_2\Day2_TVScreenPattern.shader" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Program Files/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
