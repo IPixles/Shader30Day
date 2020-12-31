@@ -3,7 +3,7 @@
     Properties
     {
 		[HDR]_Color ("Wave Color",COLOR) = (1,1,1,1)
-        _MainTex ("Earth Texture", 2D) = "white" {}
+        _MainTex ("Main Texture", 2D) = "white" {}
 		
 		_GradientNoiseScale ("Warp Scale",RANGE(0,100)) = 4
 		_MoveSpeed ("Wave Move Speed",FLOAT) = 1

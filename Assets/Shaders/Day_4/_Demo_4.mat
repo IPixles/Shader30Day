@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Gloss: 546
+    - _Gloss: 200
     - _GradientNoiseScale: 4
     - _LerpStrength: 0.06
     - _LineCount: 1
@@ -41,10 +41,10 @@ Material:
     - _NoiseOffsetX: 0.779
     - _NoiseStrength: 0.268
     - _Offset: 5
-    - _RimAmount: 0.8
+    - _RimAmount: 0.66
     - _RimTheshold: 0.17
     m_Colors:
-    - _Color: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
+    - _Color: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
     - _LineCount: {r: 4, g: 200, b: 0, a: 0}
-    - _RimColor: {r: 1.0139645, g: 0.85816485, b: 0.7987362, a: 1}
-    - _SpecularColor: {r: 1.8196079, g: 1.8039216, b: 1.7882353, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 4, g: 4, b: 4, a: 1}

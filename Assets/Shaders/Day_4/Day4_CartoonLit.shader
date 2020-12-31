@@ -3,7 +3,7 @@
     Properties
     {
 		_Color ("Base Color",COLOR) = (1,1,1,1)
-        _MainTex ("Earth Texture", 2D) = "white" {}
+        _MainTex ("Main Texture", 2D) = "white" {}
 		[HDR]_SpecularColor ("Specular Color",COLOR) = (1,1,1,1)
 		_Gloss ("Gloss",RANGE(4,1000)) = 20
 
@@ -76,7 +76,7 @@
 				float3 viewDir = normalize(i.WorldSpaceViewDir);
 				float3 halfDir = normalize(lightDir + viewDir);//半角向量
 				//Ambient
-				float3 _Ambient = UNITY_LIGHTMODEL_AMBIENT.rgb;
+				float3 _Ambient = saturate(UNITY_LIGHTMODEL_AMBIENT.rgb * 2);
 				//Diffuse 
 				//float3 _Diffuse = max(0,dot(norDir,lightDir)) * lit.color.rgb * i.color.rgb;
 				float3 _Diffuse = step(0,dot(norDir,lightDir)) * lit.color.rgb * i.color.rgb;

@@ -3,7 +3,7 @@
     Properties
     {
 		[HDR]_Color ("Color",COLOR) = (1,1,1,1)
-        _MainTex ("Earth Texture", 2D) = "white" {}
+        _MainTex ("Main Texture", 2D) = "white" {}
 		
 		//Noise Offset 
 		_NoiseMoveSpeed ("Noise Move Speed",RANGE(0,10)) = 2
